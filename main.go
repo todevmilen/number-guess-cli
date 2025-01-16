@@ -47,8 +47,6 @@ Let's start the game!
 
 	currChance := 0
 
-	fmt.Println(randomNumber)
-
 	for currChance < chances[difficulty-1] {
 		fmt.Print("Enter your guess: ")
 		c, err := fmt.Scanln(&guess)
